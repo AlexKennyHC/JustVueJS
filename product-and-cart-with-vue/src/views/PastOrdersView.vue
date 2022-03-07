@@ -17,7 +17,7 @@
       </thead>
       <tbody>
       <tr>
-        <td><i class="icofont-carrot icofont-4x"></td>
+        <td><i class="icofont-carrot icofont-4x" /></td>
         <td>Carrot</td>
         <td>$1.00</td>
         <td>1</td>
@@ -27,7 +27,7 @@
         </td>
       </tr>
       <tr>
-        <td><i class="icofont-banana icofont-4x"></td>
+        <td><i class="icofont-banana icofont-4x" /></td>
         <td>Banana</td>
         <td>$0.50</td>
         <td>10</td>
@@ -43,7 +43,7 @@
 
 <script>
 export default {
-  name: 'PastOrders'
+  name: 'PastOrdersView'
 }
 </script>
 
