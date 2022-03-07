@@ -1,6 +1,4 @@
 <template>
-  <h1>Past Orders</h1>
-
   <main class="wrapper">
     <h1>Past Orders</h1>
 
@@ -22,9 +20,7 @@
         <td>$1.00</td>
         <td>1</td>
         <td>$1.00</td>
-        <td>
-          <button class="btn btn-dark">Add</button>
-        </td>
+        <td><button class="btn btn-dark">Add</button></td>
       </tr>
       <tr>
         <td><i class="icofont-banana icofont-4x" /></td>
@@ -32,13 +28,12 @@
         <td>$0.50</td>
         <td>10</td>
         <td>$5.00</td>
-        <td>
-          <button class="btn btn-dark">Add</button>
-        </td>
+        <td><button class="btn btn-dark">Add</button></td>
       </tr>
       </tbody>
     </table>
   </main>
+
 </template>
 
 <script>
@@ -46,7 +41,3 @@ export default {
   name: 'PastOrdersView'
 }
 </script>
-
-<style scoped>
-
-</style>
